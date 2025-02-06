@@ -1,0 +1,53 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+@font-face {
+    font-family: poppins;
+    font-style: normal;
+    font-weight: 700;
+    src: url('../Fonts/poppins/poppins-bold-webfont.woff2') format('woff2');
+}
+@font-face {
+    font-family: poppins;
+    font-style: normal;
+    font-weight: 900;
+    src: url('../Fonts/poppins/poppins-bold-webfont.woff2') format('woff2');
+}
+@font-face {
+    font-family: poppins;
+    font-style: normal;
+    font-weight: 400;
+    src: url('../Fonts/poppins/poppins-medium-webfont.woff2') format('woff2');
+}
+@font-face {
+    font-family: poppins;
+    font-style: normal;
+    font-weight: 600;
+    src: url('../Fonts/poppins/poppins-semibold-webfont.woff2') format('woff2');
+}
+@font-face {
+    font-family: poppins;
+    font-style: normal;
+    font-weight: 300;
+    src: url('../Fonts/poppins/poppins-light-webfont.woff2') format('woff2');
+}
+body{
+    font-family: poppins;
+}
+:root{
+    --color_C90000:#C90000;
+    --color_7D7C7C:#7D7C7C;
+    --color_FFFFFF:#FFFFFF;
+    --color_323232:#323232;
+    --color_504F4F:#504F4F;
+    --color_FFC300:#FFC300;
+    --color_F1F1F1:#F1F1F1;
+    --color_E3E3E3:#E3E3E3;
+    --color_FFEAE6:#FFEAE6;
+}
+.container{
+    max-width: 1171px;
+    margin: 0 auto;
+}
